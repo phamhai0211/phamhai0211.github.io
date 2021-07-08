@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link>
+    <!--================Favicon====-->
+    <link rel="shortcut icon" href="img/favicon.png"> 
     <!--================REMIXICON====-->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <!--================Swiper CSS===========-->
@@ -22,7 +24,7 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link">Home</a>
+                        <a href="#home" class="nav__link active-link">Home</a>
                     </li>
                     <li class="nav__item">
                         <a href="#about" class="nav__link">About</a>
@@ -34,6 +36,11 @@
                         <a href="#place" class="nav__link">Places</a>
                     </li>
                 </ul>
+
+                <div class="nav__dark">
+                    <span class="change-theme-name">Dark mode</span>
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+                </div>
                 <i class="ri-close-line nav__close" id="nav-close"></i>
             </div>
             <div class="nav__toggle" id="nav-toggle">
@@ -67,7 +74,7 @@
                 <div class="home__info">
                     <div>
                         <span class="home__info-title">5 best places to visit</span>
-                        <a href="#" class="button button--flex button--link home__info-button">
+                        <a href="#" class="button button--flex button--link home__info-button" >
                             More <i class="ri-arrow-right-line"></i>
                         </a>
                     </div>
@@ -379,11 +386,73 @@
                         </a>
                     </div>
                 </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">About</h3>
+
+                    <ul>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">About Us</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Features</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">New & Blog</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Company</h3>
+
+                    <ul>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Team</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Plan y Pricing</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Become a member</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Support</h3>
+
+                    <ul>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">FAQs</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Support Center</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__rights">
+                    <p class="footer__coppy">&#169; 2021 PhamHai. All rigths reserved.</p>
+                    <div class="footer__terms">
+                        <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                        <a href="#" class="footer__terms-link">Privacy Policy</a>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
+    <!------------------scroll up---------------->
+    <a href="" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
     <!------swiper js--------->
     <script src="js/swiper-bundle.min.js"></script>
+    <!------scroll js--------->
+    <script src="js/scrollreveal.min.js"></script>
     <!------Main script--------->
     <script src="js/main.js"></script>
 </body>
